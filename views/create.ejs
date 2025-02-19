@@ -1,0 +1,18 @@
+<%- include("partials/header.ejs") %>
+<% if(locals.action){%>
+<h1>Create Post</h1>
+<form action="/createPost" method="POST">
+  <input name="title" type="text" class="post-input" placeholder="Title" />
+  <textarea name="content" class="post-input" placeholder="Content"></textarea>
+  <input type="submit" value="Create Post" />
+</form>
+
+<%}else{%>
+    <h1>Edit Post</h1>
+    <form action="/updatePost" method="PUT">
+      <input name="title" type="text" class="post-input" placeholder="Title" />
+      <textarea name="content" class="post-input" placeholder="Content"></textarea>
+      <input type="submit" value="Update Post" />
+    </form>
+<%}%>
+<%- include("partials/footer.ejs" )%>

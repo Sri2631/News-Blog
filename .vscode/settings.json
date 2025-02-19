@@ -1,0 +1,13 @@
+{
+    "html.autoClosingTags": false,
+    "html.autoCreateQuotes": false,
+    "html.format.enable": false,
+    "html.suggest.html5": false,
+    "html.validate.scripts": false,
+    "html.validate.styles": false,
+    "html.format.preserveNewLines": false,
+    "html.hover.documentation": false,
+    "html.hover.references": false,
+    "javascript.autoClosingTags": false,
+    "typescript.autoClosingTags": false
+}
